@@ -1,4 +1,7 @@
 body {
+    background-image: url('/image/tottenham\ south\ stand.webp'); 
+    background-size: cover; 
+    background-position: center; 
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
     color: #333;
@@ -17,6 +20,7 @@ header {
 }
 
 h1 {
+    text-align: center;
     margin: 0;
 }
 
