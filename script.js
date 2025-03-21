@@ -1,4 +1,4 @@
-// Skapa en tom varukorg eller hämta från localStorage
+
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
 // Funktion för att lägga till en produkt i varukorgen
@@ -68,8 +68,8 @@ function setupAddToCartButtons() {
     });
 }
 
-// Kör setup-funktion när sidan är laddad
+
 document.addEventListener('DOMContentLoaded', () => {
     setupAddToCartButtons();
-    updateCartDisplay(); // Uppdatera varukorgen vid sidladdning
+    updateCartDisplay(); 
 });
