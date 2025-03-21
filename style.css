@@ -101,7 +101,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Stilar för varukorgen */
+
 #cart-container {
     display: none; /* Döljer varukorgen */
     position: fixed;
